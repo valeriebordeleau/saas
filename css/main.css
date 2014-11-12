@@ -8,7 +8,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -22,6 +21,66 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.logotype {
+    width: 25%
+}
+
+.touricon {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.header {
+    text-align:right;
+    background-color: rgba(230,230,230,0.6);
+    position:absolute;
+    width: 100%;
+    margin-top: 35%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.socialicons {
+    width: 8%;
+}
+
+.billboard {
+    width: 100%
+}
+
+.medium {
+    background-color: #B2B2B2;
+}
+
+.light {
+    background-color: #E6E6E6;
+}
+
+.dark {
+    background-color: #666;
+}
+
+.quote {
+}
+
+.linkicons {  
 }
 
 @media only screen and (min-width: 25em) {  
