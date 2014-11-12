@@ -65,6 +65,7 @@ body {
 
 .socialicons {
     width: 20%;
+    height: auto;
 }
 
 .billboard {
@@ -103,17 +104,20 @@ button {
 @media only screen and (min-width: 25em) {
      .socialicons {
         width: 15%;
+        height: auto;
     }
 }
 
 @media only screen and (min-width: 38em) {
      .socialicons {
         width: 8%;
+        height: auto;
     }
 }
 
 @media only screen and (min-width: 60em) {
     .socialicons {
         width: 5%;
+        height: auto;
     }
 }
