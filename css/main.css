@@ -101,14 +101,14 @@ button {
 }
 
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 30em) {
      .socialicons {
         width: 15%;
         height: auto;
     }
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 50em) {
      .socialicons {
         width: 8%;
         height: auto;
