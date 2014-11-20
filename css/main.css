@@ -129,7 +129,7 @@ body {
 }
 
 .socialicons {
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
@@ -173,7 +173,7 @@ button {
 
 @media only screen and (min-width: 30em) {
      .socialicons {
-        width: 15%;
+        width: 10%;
         height: auto;
     }
     
@@ -188,7 +188,7 @@ button {
 
 @media only screen and (min-width: 50em) {
      .socialicons {
-        width: 8%;
+        width: 5%;
         height: auto;
     }
 }
