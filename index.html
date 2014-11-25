@@ -11,6 +11,11 @@
   <link href="css/typography.css" rel="stylesheet">  
 </head>
 <body>
+    
+    <ul class="skip-links">
+    <li><a href="#main">Jump to Main</a></li>
+    <li><a href="#navfooter">Jump to Navigation</a></li>
+</ul>
 
     <div class="nav-btn">
         <a href="#navfooter">Navigate</a> 
@@ -21,16 +26,17 @@
             <img src="images/logotype.svg" a href="index.html">
         </div>
 
-    
-<div class="nav"> 
-    <nav id="nav" role="navigation">
-    <ul class="nav nav-top kilo push-0 brand" data-state="collapsed">
-        <li class=""><a href="index.html">Home</a></li>
-        <li class=""><a href="pricing.html">Prices</a></li>
-        <li class="">
+<div class="grid">    
+    <div class="nav"> 
+        <nav id="nav" role="navigation">
+        <ul class="nav nav-top kilo push-0 brand" data-state="collapsed">
+            <li class="unit unit-s-1 unit-m-1-3"><a href="index.html">Home</a></li>
+            <li class="unit unit-s-1 unit-m-1-3"><a href="pricing.html">Prices</a></li>
+            <li class="unit unit-s-1 unit-m-1-3">
             <a href="signup.html">Sign Up</a></li>
-    </ul>
-</nav>
+        </ul>
+        </nav>
+    </div>
 </div>
     <div class="banner">
         <h1 class="island-half push-0 header zetta">Header</h1>
@@ -38,6 +44,7 @@
     </div>
 </header>
     
+<main id="main" role="main">    
     <p class="intro gutter island light mega">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, metus at euismod venenatis, ipsum risus imperdiet mi, hendrerit ornare quam odio sed libero. Nullam cursus mattis nunc sed ultrices. In hac habitasse platea dictumst. Morbi id leo non diam porttitor tempor.</p>
  
 <div class="grid">
@@ -105,12 +112,13 @@
 <footer>
 
 <div class="light pad-top">
-   
-<nav id="navfooter" class="navfooter">
+    
+    
+<nav id="navfooter" role="navigation" class="navfooter grid">
        <ul class="nav kilo push-0 brand">
-        <li class=""><a href="index.html">Home</a></li>
-        <li class=""><a href="pricing.html">Prices</a></li>
-        <li class="">
+        <li class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3"><a href="index.html">Home</a></li>
+        <li class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3"><a href="pricing.html">Prices</a></li>
+        <li class="unit unit-s-1-3 unit-m-1-3 unit-l-1-3">
             <a href="signup.html">Sign Up</a></li>
     </ul>
 </nav>
@@ -120,10 +128,9 @@
     <div class="linkicons">
         <img class="socialicons" src="images/logo-email.svg" a href="http://www.outlook.com">
         <img class="socialicons" src="images/logo-fb.svg" a href="http://www.facebook.com">
-        <img class="socialicons" src="images/logo-twitter.svg" a href="http://ww.twitter.com">
+        <img src="images/logo-twitter.svg" a href="http://twitter.com" class="socialicons">
     </div>
 </div>
-    
 
 <div class="Copyrights">
 <p class="gutter pad-bottom push-0">©Typerights 2014</p>
