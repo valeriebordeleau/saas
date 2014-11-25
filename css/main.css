@@ -134,13 +134,27 @@ body {
     position: relative;
 }
 
-.header {
+.header-home {
     text-align:right;
     background-color: rgba(0,0,0,0.7);
     position:absolute;
     width: 100%;
-    margin-top: 35%;
+    margin-top: 15%;
     color: white;
+}
+
+.header-pricing {
+    text-align:right;
+    width: 100%;
+    margin-top: 0;
+    color: white;
+}
+
+.banner-pricing {
+    text-align:right;
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.7); 
 }
 
 .intro {
@@ -210,12 +224,20 @@ button {
    .nav 
    }
     
+    .logotype {
+        width: 40%;
+    }
+
 }
 
 @media only screen and (min-width: 50em) {
      .socialicons {
         width: 5%;
         height: auto;
+    }
+    
+    .logotype {
+        width: 20%;
     }
 }
 
