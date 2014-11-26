@@ -184,7 +184,7 @@ body {
 
 .linkicons {
     width: 100%;
-    max-width: 500px;
+    max-width: 50px;
 }
 
 .cost {
@@ -201,11 +201,7 @@ button {
 }
 
 
-@media only screen and (min-width: 30em) {
-     .socialicons {
-        width: 10%;
-        height: auto;
-    }
+@media only screen and (min-width: 30em) 
     
     .nav-btn {
         display: none;
@@ -229,11 +225,7 @@ button {
 }
 
 @media only screen and (min-width: 50em) {
-     .socialicons {
-        width: 5%;
-        height: auto;
-    }
-    
+
 }
 
 
