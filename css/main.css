@@ -140,7 +140,7 @@ body {
     background-color: rgba(0,0,0,0.7);
     position:absolute;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 0%;
     color: white;
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 .linkicons {
-    width: 100%;
+    width: 15%;
     max-width: 50px;
 }
 
@@ -201,7 +201,8 @@ button {
 }
 
 
-@media only screen and (min-width: 30em) 
+@media only screen and (min-width: 30em) {
+   
     
     .nav-btn {
         display: none;
@@ -225,7 +226,7 @@ button {
 }
 
 @media only screen and (min-width: 50em) {
-
+    
 }
 
 
