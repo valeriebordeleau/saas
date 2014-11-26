@@ -182,9 +182,10 @@ body {
 .quote {
 }
 
-.linkicons {
+.linkicons a {
     width: 15%;
     max-width: 50px;
+    display: inline-block;
 }
 
 .cost {
@@ -215,7 +216,8 @@ button {
     .nav-top a {
     }
 
-   .nav 
+   .nav li {
+       display: inline-block;
    }
     
     .selected {
