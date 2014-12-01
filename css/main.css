@@ -18,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+.subhead {
+    font-weight: 300;
+}
+
 .skip-links {
     margin:0;
     padding:0;
@@ -137,10 +141,10 @@ body {
 
 .header-home {
     text-align:right;
-    background-color: rgba(0,0,0,0.7);
+    xbackground-color: rgba(0,0,0,0.9);
     position:absolute;
     width: 100%;
-    margin-top: 0%;
+    margin-top: 10%;
     color: white;
 }
 
