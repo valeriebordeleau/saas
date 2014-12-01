@@ -179,7 +179,7 @@ body {
 }
 
 .introlight {
-    background-color: #EBC2C2;
+    background-color: #AAA5A0;
 }
 
 .dark {
@@ -203,10 +203,10 @@ body {
 button {
     font-size: 1rem;
     padding: .25rem;
-    background-color: white;
-    border: 3px solid #B2B2B2;
-    border-radius:2px;
-    font-family: normal 100%/1.5 'Roboto', sans-serif;
+    background-color: #99CCCC;
+    border: 0px solid #527A7A;
+    color: #3D2E1F;
+    font-family:'Libre Baskerville', serif;
 }
 
 
