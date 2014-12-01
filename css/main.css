@@ -141,7 +141,6 @@ body {
 
 .header-home {
     text-align:right;
-    xbackground-color: rgba(0,0,0,0.9);
     position:absolute;
     width: 100%;
     margin-top: 10%;
@@ -176,7 +175,8 @@ body {
 }
 
 .light {
-    background-color: #E6E6E6;
+    background-color: #F5E0E0;
+    color: #660000;
 }
 
 .dark {
@@ -225,7 +225,7 @@ button {
    }
     
     .selected {
-        background-color: #E2E2E2;
+        background-color: #99CCCC;
         font-weight: 400;
     }
 
