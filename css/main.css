@@ -108,7 +108,7 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-    background-color: #666;
+    background-color: #527A7A;
     background-position: 0 -40px; 
     
     color: white;
@@ -124,14 +124,14 @@ body {
     display: block;
     padding: 2em 10px;
     
-    color: #666;
+    color: #527A7A;
     text-decoration: none;
 }
 
 .navfooter a:hover,
 .navfooter a:focus,
 .navfooter a:active {
-    background-color: #666;
+    background-color: #527A7A;
     color: white;
 }
 
@@ -175,8 +175,11 @@ body {
 }
 
 .light {
-    background-color: #F5E0E0;
-    color: #660000;
+    background-color: #A3C2C2;
+}
+
+.introlight {
+    background-color: #EBC2C2;
 }
 
 .dark {
@@ -201,8 +204,9 @@ button {
     font-size: 1rem;
     padding: .25rem;
     background-color: white;
-    border: 2px solid #B2B2B2;
+    border: 3px solid #B2B2B2;
     border-radius:2px;
+    font-family: normal 100%/1.5 'Roboto', sans-serif;
 }
 
 
