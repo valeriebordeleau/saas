@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Sign Up for Typerights</title>
- <link href="http://fonts.googleapis.com/css?family=Righteous|Roboto:300,500,300italic" rel="stylesheet">
+ <link href="http://fonts.googleapis.com/css?family=Roboto:300,500,300italic" rel="stylesheet">
+ <link href="http://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet"> 
@@ -32,10 +33,10 @@
 
 </header>    
     
-   <h2 class="island banner-pricing zetta center">Sign Up for TypeRights</h2>
+   <h2 class="island banner-pricing center header-pricing">Sign Up for TypeRights</h2>
 
-<p class="centered gutter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet dictum tincidunt. Sed vehicula elit odio, a auctor mauris eleifend ac </em></p>
-
+<p class="centered gutter baskerville"> Please enter your information below:</p>
+<form action="thanks.html">
 <div class="gutter">
     <label for="given-name">Given Name</label>
     <input type="text" id="name">
@@ -63,27 +64,46 @@
     
 </div>        
     
-    <div class="qa pad-top gutter">
-    <p class="push-0">Which package would you like to sign up for?<p>
+<div id="paid">
+
+    <div class="pad-top gutter push-0">
+    <p class="baskerville">Which package would you like to sign up for?<p>
     </div>
  
   <div class="gutter">
-    <label for="fav-color">Package:</label>
-    <select id="fav-color">
-        <option>Beginner (Free) </option>
+    <label for="package">Package:</label>
+    <select id="package">
         <option>Single User ($9.99) </option>
         <option selected>Small Team ($19.99)</option>
         <option>Extensive Team ($29.99)</option>
     </select>
     </div>
-   
+    
+    <p class="gutter pad-top push-0 baskerville">Credit Card Information:</p>
+    
+     <div class="gutter">
+    <label for="name">Name on Credit Card</label>
+    <input type="text" id="name">
+    </div>
+    
+    <div class="gutter">
+    <label for="credit">Credit Card Number</label>
+    <input type="text" id="name">
+    </div>
+    
+    <div class="gutter">
+    <label for="CCV">CCV</label>
+    <input type="text" id="name">
+    </div>
+ 
+    </div>
     
   <div class="pad-top-half pad-bottom gutter">
  <div class="button">
-        <a href="thanks.html"><button type="signup">Submit</button></a>
+        <button class="btn" type="signup">Submit</button>
     </div>
 </div>
-    
+    </form>
 <footer>
 
 <div class="light pad-top">

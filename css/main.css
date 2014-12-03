@@ -137,28 +137,30 @@ body {
 
 .banner {
     position: relative;
+    background-image: url(../images/billboard.jpg);
+    padding-top: 66%;
+    background-size: cover;     
 }
 
 .header-home {
     text-align:right;
     position:absolute;
     width: 100%;
-    margin-top: 10%;
     color: white;
+    top: 10%;
 }
 
 .header-pricing {
     text-align:right;
     width: 100%;
     margin-top: 0;
-    color: white;
+    color: #3D2E1F;
 }
 
 .banner-pricing {
     text-align:right;
     width: 100%;
-    color: white;
-    background-color: rgba(0,0,0,0.7); 
+    background-color: #AAA5A0;
 }
 
 .intro {
@@ -201,14 +203,27 @@ body {
 }
 
 button {
+    font: inherit;
+}
+
+.btn {
+    display: inline-block;
     font-size: 1rem;
     padding: .25rem;
     background-color: #99CCCC;
     border: 0px solid #527A7A;
     color: #3D2E1F;
     font-family:'Libre Baskerville', serif;
+    text-decoration: none;
 }
 
+#paid {
+    display: none;
+}
+
+#paid:target {
+    display: block;
+}
 
 @media only screen and (min-width: 30em) {
    
@@ -233,9 +248,16 @@ button {
         font-weight: 400;
     }
 
+    .banner {
+    padding-top: 50%;
+    }
 }
 
 @media only screen and (min-width: 50em) {
+    
+    .banner {
+    padding-top: 30%;
+    }
     
 }
 
