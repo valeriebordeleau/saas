@@ -157,6 +157,10 @@ body {
     color: #3D2E1F;
 }
 
+.backgroundcolour {
+    background-color: #E0DFDD;
+}
+
 .banner-pricing {
     text-align:right;
     width: 100%;
@@ -181,7 +185,7 @@ body {
 }
 
 .introlight {
-    background-color: #AAA5A0;
+    background-color: #A3C2C2;
 }
 
 .dark {
